@@ -6,11 +6,15 @@
 </head>
 <body>
 
-    <h1>StudyBuddy 2.0</h1>
-    <p>Your AI Learning Assistant</p>
+    <div class="container">
+        <h1>📚 StudyBuddy 2.0</h1>
+        <p>Your AI Learning Assistant</p>
 
-    <input type="text" placeholder="Enter a topic">
-    <button onclick="generateNotes()">Generate Notes</button>
+        <input type="text" id="topic" placeholder="Enter a topic">
+        <button onclick="generateNotes()">Generate Notes</button>
+
+        <div id="output"></div>
+    </div>
 
     <script src="script.js"></script>
 
